@@ -13,23 +13,24 @@ After creating the data, it is then plotted using gnuplot.
 
 # Part 1 - 1 Body
 A single body in space should stay immobile:
-![one body](gifs/1body.gif)
+![one body](nbody_sim/gifs/1body.gif)
 
 # Part 2 - 2 Bodies
 Two bodies should orbit each other:
-![two bodies](gifs/2_bodies.gif)
+![two bodies](nbody_sim/gifs/2_bodies.gif)
 
 # Part 3 - Many bodies
 Unfortunately, too many bodies are hard to visualize:
-![one million bodies](gifs/one_million.gif)
+![one million bodies](nbody_sim/gifs/one_million.gif)
 
 So we need to limit the number of bodies.
 Here are 100 000 bodies evolving slowly with times. I am not sure wheter there is a bias near the center of the space or the "lines" are perks of living in a cubic universe.
-![](ten_thousands.gif)
-![energy non periodic](gifs/ten_thousands_energy.png)
+![10000 bodies](nbody_sim/gifs/ten_thousands.gif)
+![energy non periodic](nbody_sim/gifs/ten_thousands_energy.png)
 
 Using periodic boundary conditions:
-![energy periodic](gifs/ten_thousands_energy_periodic.png)
+![10000 bodies periodic](nbody_sim/gifs/ten_thousands_periodic.gif)
+![energy periodic](nbody_sim/gifs/ten_thousands_energy_periodic.png)
 
 # Part 4 - Scale Invariant Power Spectrum
 To be added
