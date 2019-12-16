@@ -4,7 +4,7 @@
 	<stdlib.h>
 	"body.h"
 
-1575879610 source:c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\cell.c
+1576422244 source:c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\cell.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
@@ -17,13 +17,13 @@
 1575849487 c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\body.h
 	"cell.h"
 
-1575916408 source:c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\initialize.c
+1576429518 source:c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\initialize.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 	"body.h"
 
-1575914960 source:c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\main.c
+1576428474 source:c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\main.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
@@ -36,14 +36,14 @@
 	"cell.h"
 	"body.h"
 
-1575917295 source:c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\solver.c
+1576428130 source:c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\solver.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
 	"cell.h"
 	"body.h"
 
-1575879488 c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\solver.h
+1576350492 c:\users\ngren\documents\0mcgillfall2019\phys512\phys512_ngv\n_body_problem\nbody_sim\solver.h
 	"cell.h"
 	"body.h"
 

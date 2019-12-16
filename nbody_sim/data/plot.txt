@@ -1,6 +1,6 @@
-set terminal gif animate delay 1
-set output 'out.gif'
-stats '2_bodies.dat' name 'data'
+set terminal gif animate delay 3
+set output 'ten_thousands_periodic.gif'
+stats 'ten_thousands_periodic.dat'
 
 set xrange [0:100]
 set yrange [0:100]
@@ -8,6 +8,6 @@ set zrange [0:100]
 
 set isosamples 200, 200
 
-do for [i=0:1000] {
-    splot '2_bodies.dat' index i with points pt 7
+do for [i=0:STATS_blocks-1] {
+    splot 'ten_thousands_periodic.dat' index i with points pt 7 ps 0.1
 }

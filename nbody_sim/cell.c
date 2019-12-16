@@ -50,7 +50,8 @@ Cell *** Cell_InitSpace(nx, ny, nz) {
 
 
      // Assign cell neighbours (including boundary conditions)
-    Cell_LinkSpace(Space, nx, ny, nz);
+    //Cell_LinkSpace(Space, nx, ny, nz);
+    Cell_LinkSpace_Periodic(Space, nx, ny, nz);
 
     return Space;
 }
@@ -133,8 +134,7 @@ void Cell_LinkSpace_Periodic(Cell ***Space, int nx, int ny, int nz) {
                 }
 
                 if (x==nx-1){
-                    current->nbr[1] = current; // non-periodic
-                    //current->nbr[1] = &(Space)[0][y][z] // periodic
+                    current->nbr[1] = &(Space)[0][y][z]; // periodic
                 } else {
                     current->nbr[1] = &(Space)[x+1][y][z];
                 }
@@ -147,15 +147,13 @@ void Cell_LinkSpace_Periodic(Cell ***Space, int nx, int ny, int nz) {
                 }
 
                 if (y==ny-1){
-                    current->nbr[3] = current; // non-periodic
-                    //current->nbr[1] = &(Space)[x][0][z]; // periodic
+                    current->nbr[3] = &(Space)[x][0][z]; // periodic
                 } else {
                     current->nbr[3] = &(Space)[x][y+1][z];
                 }
 
                 // z boundaries
                 if (z==0) {
-                    current->nbr[4] = current;
                     current->nbr[4] = &(Space)[x][y][nz-1]; // periodic
 
                 } else {
